@@ -1,11 +1,13 @@
 import React from 'react';
+import LogInForm from '../components/forms/LogInForm/index';
+
 
 const LogIn = () => {
   return (
-    <div>
-      <p>LOGIN TO YOUR ACCOUNT</p>
-      {/* <LogInFrom/> */}
-    </div>
+    <>
+      <h1 className="title">LOGIN TO YOUR ACCOUNT</h1>
+      <LogInForm />
+    </>
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import {Formik} from 'formic';
 
 
-const SgnInForm = () => {
+const LogInForm = () => {
   return (
     <Formik>
       
@@ -10,4 +10,4 @@ const SgnInForm = () => {
   );
 }
 
-export default SgnInForm;
+export default LogInForm;
