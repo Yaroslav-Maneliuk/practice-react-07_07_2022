@@ -1,5 +1,5 @@
 import React from "react";
-import SignUpForm from "../components/forms/SignUp/index";
+import SignUpForm from "../components/forms/SignUpForm";
 
 const SignUp = () => {
   return (
@@ -8,7 +8,7 @@ const SignUp = () => {
       <p className="text">
         We always keep your name and email address private.
       </p>
-      <SignUpForm />
+      <SignUpForm/>
     </>
   );
 };
