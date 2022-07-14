@@ -1,8 +1,8 @@
 import React from "react";
 import { Formik, Form } from "formik";
 import { SCHEMA_LOGIN } from "../../../utils/schemaValidation";
-import WrappedInput from '../WrappedInput/index';
-import styles from "./LoginForm.module.scss";
+import WrappedInput from "../WrappedInput/index";
+import styles from "./LogInForm.module.scss";
 
 const initialValues = { email: "", password: "" };
 const LogInForm = (props) => {
@@ -17,9 +17,8 @@ const LogInForm = (props) => {
       onSubmit={onSubmit}
     >
       {(formikProps) => {
-        console.log("formikProps:", formikProps);
         return (
-          <Form className={styles.form}>
+          <Form>
             <WrappedInput name="email" placeholder="Email address" />
             <WrappedInput
               name="password"

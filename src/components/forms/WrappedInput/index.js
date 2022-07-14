@@ -1,6 +1,6 @@
 import React from "react";
 import { ErrorMessage, Field } from "formik";
-import { cx } from "cx/widgets";
+import cx from "classnames";
 import styles from "./WrappedInput.module.scss";
 
 const WrappedInput = (props) => {
