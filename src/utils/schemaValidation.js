@@ -15,15 +15,15 @@ export const SCHEMA_PASSWORD = Yup.string()
   )
   .required();
 
+export const SCHEMA_LOGIN = Yup.object({
+  email: SCHEMA_EMAIL,
+  password: SCHEMA_PASSWORD,
+});
+
 export const SCHEMA_SIGN_UP = Yup.object({
   fname: SCHEMA_NAME,
   lname: SCHEMA_NAME,
-  email: SCHEMA_EMAIL,
-  password: SCHEMA_PASSWORD,
-  age: Yup.number().integer().min(18).max(125),
-});
-
-export const SCHEMA_SIGN_IN = Yup.object({
+  displayName: SCHEMA_NAME,
   email: SCHEMA_EMAIL,
   password: SCHEMA_PASSWORD,
   passconfirm: Yup.string().oneOf([Yup.ref("password")], "Pass not equel"),
