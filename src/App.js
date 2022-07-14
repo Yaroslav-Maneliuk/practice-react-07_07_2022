@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/index";
-import Home from "./page/Home";
-import LogIn from "./page/LogIn";
-import SignUp from "./page/SignUp";
+import Home from "./pages/Home";
+import LogIn from "./pages/LogIn";
+import SignUp from "./pages/SignUp";
+import "./App.module.scss"
 
 
 const App = () => {
