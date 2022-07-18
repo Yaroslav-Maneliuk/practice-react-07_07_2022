@@ -1,20 +1,25 @@
 .container{
-margin: 0;
-width: 600px;
-
+  display: flex;
+  flex-direction: column;
+  width: auto;
 }
+
 .radio {
-  margin: 20px 10px;
+  width: auto;
+  margin: 15px 10px;
   padding: 20px;
   border: 1px solid white;
   text-align: left;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
-.radio>h6 {
-  padding: 0;
-  margin: 2px;
-  font-weight: 400;
+.comments{
   text-align: left;
   position: relative;
   left: 20px;
+  margin: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
 }

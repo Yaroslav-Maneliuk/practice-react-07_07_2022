@@ -46,7 +46,7 @@ const SignUpForm = (props) => {
               <input
                 type="submit"
                 value="Create account"
-                className={styles.input}
+                className={styles.submit}
               />
             </label>
           </Form>
