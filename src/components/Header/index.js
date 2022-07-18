@@ -5,7 +5,7 @@ import styles from './Header.module.scss'
 const Header = () => {
   const { pathname } = useLocation();
   return (
-    <header className={styles['header-container']}>
+    <header className={styles.headerContainer}>
       <Link to="/">
         <img src="/static/images/logo.png" alt="logo" />
       </Link>
