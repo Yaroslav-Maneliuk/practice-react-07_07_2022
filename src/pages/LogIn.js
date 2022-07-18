@@ -1,6 +1,6 @@
 import React from 'react';
 import LogInForm from '../components/forms/LogInForm/index';
-import styles from "./../common/styles/styles.scss"
+import styles from "./../App.module.scss"
 
 
 const LogIn = () => {

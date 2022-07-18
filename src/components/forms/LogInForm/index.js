@@ -17,7 +17,7 @@ const LogInForm = (props) => {
     >
       {(formikProps) => {
         return (
-          <Form>
+          <Form className={styles.form}>
             <WrappedInput name="email" placeholder="Email address" />
             <WrappedInput
               name="password"
